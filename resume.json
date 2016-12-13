@@ -1,0 +1,321 @@
+{
+  "basics": {
+    "name": "Benjamin Alkov",
+    "label": "Developer",
+    "picture": "",
+    "email": "ben.alkov@gmail.com",
+    "phone": "(919) 906-7845",
+    "website": "",
+    "summary": "",
+    "location": {
+      "address": "3624 E Jameson RD",
+      "postalCode": "NC 27604",
+      "city": "Raleigh",
+      "countryCode": "US",
+      "region": "North Carolina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "benalkov",
+        "url": "https://www.linkedin.com/in/benalkov"
+      },
+      {
+        "network": "github",
+        "username": "tildebyte",
+        "url": "https://github.com/tildebyte"
+      },
+      {
+        "network": "CodePen",
+        "username": "tildebyte",
+        "url": "http://codepen.io/tildebyte/#"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Lenovo, for CTG",
+      "position": "Preload Architect",
+      "website": "",
+      "startDate": "August 2016",
+      "endDate": "Present",
+      "summary": "Converting Python code from various legacy test systems to a new platform/API which unifies MFG test across product lines.",
+      "highlights": []
+    },
+    {
+      "company": "Cisco Systems, for Aerotek",
+      "position": "Cloud Engineer",
+      "website": "",
+      "startDate": "November 2015",
+      "endDate": "July 2016",
+      "summary": "Software Developer in Test. Member of a Scrum team responsible for metering and billing Openstack usage",
+      "highlights": [
+        "Replaced ad-hoc code with a wrapper library to parse data files (Cloud Cruiser record, CSV, RabbitMQ JSON, bash environment) into Python dictionaries, while hiding domain-specific details and work-arounds.",
+        "Complete QE team Python source repo re-org, including refactoring duplicate code out into libs and pulling some code out into utility scripts (one of which ended up being used by Dev Engineers).",
+        "Standardized on third-party libraries used, for example iso8901 and dateutil for dates",
+        "Designed QE infrastructure for streaming Big Data; OpenStack usage metering in particular",
+        "Designed test host - Docker container hosting Py.test running over git repo",
+        "Designed QE environment - Docker containers hosting StreamSets, Kafka, Cassandra, Spark, and MariaDB"
+      ]
+    },
+    {
+      "company": "Cisco Systems, for Aerotek",
+      "position": "Software Test Automation Engineer",
+      "website": "",
+      "startDate": "May 2015",
+      "endDate": "July 2015",
+      "summary": "Engineer automating front end / back end tests for streaming video compression system",
+      "highlights": [
+        "Executed and verified functional test cases for video encoding software",
+        "Configured and tested Unicast and Multicast streaming video servers",
+        "Examined existing TCL and Python test automation framework and test scripts with the expectation of expanding coverage using Python",
+        "Division sold one month into contract. Contract was specified for Python automation scripting"
+      ]
+    },
+    {
+      "company": "Lenovo/IBM, Imaging Technology Team, for CTG",
+      "position": "Design Engineer",
+      "website": "",
+      "startDate": "June 2011",
+      "endDate": "March 2015",
+      "summary": "Developer of system and appliance deployments for manufacturing process",
+      "highlights": [
+        "Maintained shell scripts and data files for deploying KVM and pre-packaged VM onto bare-metal systems",
+        "Designed and implemented a curses-based menu system and executive, written in Python, running within the constraints of a diskless system",
+        "Designed and implemented shell scripts to automate download and packaging of daily test builds, for automated regression testing of specific defects, and for remote server monitoring and testing using Net-SNMP",
+        "Maintained Linux build server and PXE server used for booting test systems into automated test environment"
+      ]
+    },
+    {
+      "company": "Red Hat, Global Support Services",
+      "position": "Partner Technical Account Manager",
+      "website": "",
+      "startDate": "June 2007",
+      "endDate": "April 2011",
+      "summary": "Technical liaison with OEM partners",
+      "highlights": [
+        "Worked with Partners and Red Hat Engineering to resolve pre- and post- release technical issues reported by Partners",
+        "Gained thorough understanding of Partners' products and assisted in timely certification of their hardware or software",
+        "Worked to resolve joint customer issues with Partner support organizations",
+        "Installed and configured KVM on Partner hardware to match customer configurations for troubleshooting"
+      ]
+    },
+    {
+      "company": "IBM, for CTG",
+      "position": "Quality Assurance Engineer",
+      "website": "",
+      "startDate": "September 2003",
+      "endDate": "June 2007",
+      "summary": "Server and Service Processor firmware tester. Executed test cases, reported defects, worked with developers to resolve defects",
+      "highlights": [
+        "Coded a library of bash scripts to test SNMP functionality of BladeCenter Management Module using Net-SNMP",
+        "Team lead on SNMP",
+        "Completed initial JS20 and JS21 PowerPC BladeServer testing on schedule",
+        "Team lead on PowerPC BladeServer setup and testing",
+        "Worked with team to complete test cycles on or ahead of schedule",
+        "Coded a library of shell scripts to automate testing tasks"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Processing.py",
+      "position": "Contributor (development)",
+      "website": "http://py.processing.org",
+      "startDate": "April 2014",
+      "endDate": "Present",
+      "summary": "Processing is a programming language, development environment, and online community. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology.",
+      "highlights": [
+        "Two original demos accepted"
+      ]
+    },
+    {
+      "organization": "BallDroppings",
+      "position": "Contributor (development)",
+      "website": " http://balldroppings.com",
+      "startDate": "April 2014",
+      "endDate": "April 2014",
+      "summary": "BallDroppings is an addicting and noisy play-toy. It can also be seen as an emergence game.",
+      "highlights": []
+    },
+    {
+      "organization": "BEAP",
+      "position": "Contributor (development)",
+      "website": "https://github.com/stretta/BEAP",
+      "startDate": "November 2013",
+      "endDate": "January 2015",
+      "summary": "BEAP Modular. Berklee Electro Acoustic Pedagogy. A software system for emulation of, and connection to, modular analog synthesizers.",
+      "highlights": [
+        "Created a new device https://github.com/stretta/BEAP/commit/ee16d9870baedf1dd608e1cd672d80710b745caf"
+      ]
+    },
+    {
+      "organization": "ChucK plugin for Sublime Text 3",
+      "position": "Project co-creator, co-admin. Developer.",
+      "website": "https://github.com/tildebyte/ChucK-plugin-for-ST3",
+      "startDate": "October 2013",
+      "endDate": "December 2013",
+      "summary": "A Sublime Text 3 plugin for ChucK, featuring syntax highlighting, tab completion, and snippets.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "The Linux Foundation",
+      "area": "Systems Administration",
+      "studyType": "Job-related, for Cisco Systems",
+      "startDate": "Spring 2016",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "LFS452 Essentials of OpenStack Administration, Cert #LFS452-6202"
+      ]
+    },
+    {
+      "institution": "Cloudera",
+      "area": "Big Data development",
+      "studyType": "Job-related, for Cisco Systems",
+      "startDate": "Spring 2016",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "Cloudera Developer Training for Apache Spark"
+      ]
+    },
+    {
+      "institution": "MITx",
+      "area": "Computer Science / Programming",
+      "studyType": "Independent Coursework",
+      "startDate": "Fall 2012",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "Introduction to Computer Science and Programming (6.00x), Certificate License fba863e685ed4a0b9b2d2d8830803b02"
+      ]
+    },
+    {
+      "institution": "Coursera",
+      "area": "Computer Science & Arts",
+      "studyType": "Personal",
+      "startDate": "December 2013",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "Introduction to Programming for Musicians and Digital Artists"
+      ]
+    },
+    {
+      "institution": "Red Hat",
+      "area": "Systems Administration",
+      "studyType": "Job requirement",
+      "startDate": "August 2007",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "Red Hat Certified Engineer, RHCE #805007733428637"
+      ]
+    },
+    {
+      "institution": "The School of Communication Arts",
+      "area": "Digital Animation",
+      "studyType": "Associates",
+      "startDate": "2004",
+      "endDate": "2006",
+      "gpa": "3.7",
+      "courses": [
+        "3D character animation. Modeling, rigging, lighting",
+        "Video editing/effects/post",
+        "Audio design/editing/effects/post"
+      ]
+    },
+    {
+      "institution": "Sun Educational Services",
+      "area": "Computer Science",
+      "studyType": "Job related, for Nortel Networks",
+      "startDate": "January, 2001",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "Java Programming Language (SL-275)"
+      ]
+    },
+    {
+      "institution": "North Carolina State University",
+      "area": "English, Design",
+      "studyType": "Bachelor",
+      "startDate": "1985",
+      "endDate": "1990",
+      "gpa": "3.5",
+      "courses": [
+        "Writing, editing, copyediting, rhetoric; Graphic design"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "ES6"
+      ]
+    },
+    {
+      "name": "Algorithmic/generative art & music",
+      "keywords": [
+        "Processing",
+        "three.js",
+        "BEAP"
+      ]
+    },
+    {
+      "name": "Animation",
+      "keywords": []
+    },
+    {
+      "name": "Cinema",
+      "keywords": []
+    },
+    {
+      "name": "Photography",
+      "keywords": []
+    },
+    {
+      "name": "Go (Igo, Baduk, Wéiqí)",
+      "keywords": [
+        "http://en.wikipedia.org/wiki/Go_(game)"
+      ]
+    },
+    {
+      "name": "Electronic music",
+      "keywords": [
+        "Composition",
+        "Production"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jeremy West, Manager of global support operations at Red Hat",
+      "reference": "Ben is both a walking vault of random knowledge that he seems to accumulate over time as well an excellent troubleshooter. You could give him a problematic script or faulty hardware and he wouldn't rest until the script was fixed and the hardware problem identified."
+    }
+  ]
+}

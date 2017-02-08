@@ -1,7 +1,6 @@
 {
   "basics": {
     "name": "Benjamin Alkov",
-    "label": "Developer",
     "email": "ben.alkov@gmail.com",
     "phone": "(919) 906-7845",
     "location": {
@@ -33,8 +32,10 @@
       "position": "Preload Architect",
       "startDate": "August 2016",
       "endDate": "Present",
-      "summary": "Converting Python code from various legacy test systems to a new platform/API which unifies MFG test across product lines.",
-      "highlights": []
+      "summary": "Converting Python code from various legacy manufacturing test systems to a new platform/API which unifies manufacturing test across product lines.",
+      "highlights": [
+        "Successful roll-out of OS preload on new system type for overseas manufacturing plant."
+      ]
     },
     {
       "company": "Cisco Systems, for Aerotek",
@@ -43,12 +44,9 @@
       "endDate": "July 2016",
       "summary": "Software Developer in Test. Member of a Scrum team responsible for metering and billing Openstack usage",
       "highlights": [
-        "Replaced ad-hoc code with a wrapper library to parse data files (Cloud Cruiser record, CSV, RabbitMQ JSON, bash environment) into Python dictionaries, while hiding domain-specific details and work-arounds.",
-        "Complete QE team Python source repo re-org, including refactoring duplicate code out into libs and pulling some code out into utility scripts (one of which ended up being used by Dev Engineers).",
-        "Standardized on third-party libraries used, for example iso8901 and dateutil for dates",
-        "Designed QE infrastructure for streaming Big Data; OpenStack usage metering in particular",
-        "Designed test host - Docker container hosting Py.test running over git repo",
-        "Designed QE environment - Docker containers hosting StreamSets, Kafka, Cassandra, Spark, and MariaDB"
+        "Complete QE team Python source repo re-org, including refactoring duplicate code out into libs and pulling some code out into utilities",
+        "Replaced ad-hoc code with standardized libraries, both home-grown and third-party",
+        "Assisted with CI/CD environment design - Docker containers hosting StreamSets, Kafka, Cassandra, Spark, and MariaDB"
       ]
     },
     {
@@ -58,10 +56,8 @@
       "endDate": "March 2015",
       "summary": "Developer of system and appliance deployments for manufacturing process",
       "highlights": [
-        "Maintained shell scripts and data files for deploying KVM and pre-packaged VM onto bare-metal systems",
         "Designed and implemented a curses-based menu system and executive, written in Python, running within the constraints of a diskless system",
-        "Designed and implemented shell scripts to automate download and packaging of daily test builds, for automated regression testing of specific defects, and for remote server monitoring and testing using Net-SNMP",
-        "Maintained Linux build server and PXE server used for booting test systems into automated test environment"
+        "Maintained shell scripts and data files for deploying KVM and pre-packaged VM onto bare-metal systems",
       ]
     },
     {
@@ -71,10 +67,9 @@
       "endDate": "April 2011",
       "summary": "Technical liaison with OEM partners",
       "highlights": [
-        "Worked with Partners and Red Hat Engineering to resolve pre- and post- release technical issues reported by Partners",
-        "Gained thorough understanding of Partners' products and assisted in timely certification of their hardware or software",
-        "Worked to resolve joint customer issues with Partner support organizations",
-        "Installed and configured KVM on Partner hardware to match customer configurations for troubleshooting"
+        "Worked with Red Hat Partners and Red Hat Engineering to resolve pre- and post- release technical issues",
+        "Assisted Red Hat Partners in timely certification of their hardware or software",
+        "Worked to resolve Red Hat/Red Hat Partner joint customer issues",
       ]
     },
     {
@@ -82,12 +77,10 @@
       "position": "Quality Assurance Engineer",
       "startDate": "September 2003",
       "endDate": "June 2007",
-      "summary": "Server and Service Processor firmware tester. Executed test cases, reported defects, worked with developers to resolve defects",
+      "summary": "Firmware tester. Executed test cases, reported defects, worked with developers to resolve defects",
       "highlights": [
-        "Coded a library of bash scripts to test SNMP functionality of BladeCenter Management Module using Net-SNMP",
-        "Team lead on SNMP",
+        "Coded a library of bash scripts to test BladeCenter remote management",
         "Completed initial JS20 and JS21 PowerPC BladeServer testing on schedule",
-        "Team lead on PowerPC BladeServer setup and testing",
         "Worked with team to complete test cycles on or ahead of schedule",
         "Coded a library of shell scripts to automate testing tasks"
       ]
@@ -100,9 +93,10 @@
       "website": "http://py.processing.org",
       "startDate": "April 2014",
       "endDate": "Present",
-      "summary": "Processing is a programming language, development environment, and online community. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology.",
+      "summary": "Processing is a programming language, development environment, and online community.",
       "highlights": [
         "Two original demos accepted"
+        "Updated or cleaned up numerous tutorial demos."
       ]
     },
     {
@@ -111,7 +105,7 @@
       "website": " http://balldroppings.com",
       "startDate": "April 2014",
       "endDate": "April 2014",
-      "summary": "BallDroppings is an addicting and noisy play-toy. It can also be seen as an emergence game.",
+      "summary": "Generative music app.",
     },
     {
       "organization": "ChucK plugin for Sublime Text 3",
@@ -119,7 +113,7 @@
       "website": "https://github.com/tildebyte/ChucK-plugin-for-ST3",
       "startDate": "October 2013",
       "endDate": "December 2013",
-      "summary": "A Sublime Text 3 plugin for ChucK, featuring syntax highlighting, tab completion, and snippets.",
+      "summary": "A Sublime Text 3 plugin for the ChucK coding language, featuring syntax highlighting, tab completion, and snippets.",
     }
   ],
   "education": [
@@ -150,16 +144,27 @@
       ]
     },
     {
-      "institution": "Coursera",
-      "area": "Computer Science & Arts",
-      "studyType": "Personal",
-    },
-    {
       "institution": "Red Hat",
       "area": "Systems Administration",
       "studyType": "Job requirement",
       "courses": [
         "Red Hat Certified Engineer, RHCE #805007733428637"
+      ]
+    },
+    {
+      "institution": "Sun Educational Services",
+      "area": "Computer Science",
+      "studyType": "Job related, for Nortel Networks",
+      "courses": [
+        "Java Programming Language (SL-275)"
+      ]
+    },
+    {
+      "institution": "Coursera",
+      "area": "Computer Science & Arts",
+      "studyType": "Personal",
+      "courses": [
+      "Introduction to Programming for Musicians and Digital Artists"
       ]
     },
     {
@@ -170,14 +175,6 @@
         "3D character animation. Modeling, rigging, lighting",
         "Video editing/effects/post",
         "Audio design/editing/effects/post"
-      ]
-    },
-    {
-      "institution": "Sun Educational Services",
-      "area": "Computer Science",
-      "studyType": "Job related, for Nortel Networks",
-      "courses": [
-        "Java Programming Language (SL-275)"
       ]
     },
     {
@@ -207,7 +204,8 @@
       "name": "Algorithmic/generative art & music",
       "keywords": [
         "Processing",
-        "three.js"
+        "three.js",
+        "Paper.js"
       ]
     }
   ]

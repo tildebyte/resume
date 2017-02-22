@@ -1,211 +1,187 @@
 {
-  "basics": {
-    "name": "Benjamin Alkov",
-    "email": "ben.alkov@gmail.com",
-    "phone": "(919) 906-7845",
-    "location": {
-      "city": "RTP",
-      "countryCode": "US",
-      "region": "North Carolina"
+    "basics": {
+        "name": "Benjamin Alkov",
+        "email": "ben.alkov@gmail.com",
+        "phone": "(919) 906-7845",
+        "location": {
+            "city": "RTP",
+            "countryCode": "US",
+            "region": "North Carolina"
+        },
+        "profiles": [{
+            "network": "LinkedIn",
+            "username": "benalkov",
+            "url": "https://www.linkedin.com/in/benalkov"
+        }, {
+            "network": "github",
+            "username": "tildebyte",
+            "url": "https://github.com/tildebyte"
+        }, {
+            "network": "CodePen",
+            "username": "tildebyte",
+            "url": "http://codepen.io/tildebyte/#"
+        }]
     },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "benalkov",
-        "url": "https://www.linkedin.com/in/benalkov"
-      },
-      {
-        "network": "github",
-        "username": "tildebyte",
-        "url": "https://github.com/tildebyte"
-      },
-      {
-        "network": "CodePen",
-        "username": "tildebyte",
-        "url": "http://codepen.io/tildebyte/#"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "Lenovo, for CTG",
-      "position": "Preload Architect",
-      "startDate": "August 2016",
-      "endDate": "Present",
-      "summary": "Converting Python code from various legacy manufacturing test systems to a new platform/API which unifies manufacturing test across product lines.",
-      "highlights": [
-        "Successful roll-out of OS preload on new system type for overseas manufacturing plant."
-      ]
-    },
-    {
-      "company": "Cisco Systems, for Aerotek",
-      "position": "Cloud Engineer",
-      "startDate": "November 2015",
-      "endDate": "July 2016",
-      "summary": "Software Developer in Test. Member of a Scrum team responsible for metering and billing Openstack usage",
-      "highlights": [
-        "Complete QE team Python source repo re-org, including refactoring duplicate code out into libs and pulling some code out into utilities",
-        "Replaced ad-hoc code with standardized libraries, both home-grown and third-party",
-        "Assisted with CI/CD environment design - Docker containers hosting StreamSets, Kafka, Cassandra, Spark, and MariaDB"
-      ]
-    },
-    {
-      "company": "Lenovo/IBM, Imaging Technology Team, for CTG",
-      "position": "Design Engineer",
-      "startDate": "June 2011",
-      "endDate": "March 2015",
-      "summary": "Developer of system and appliance deployments for manufacturing process",
-      "highlights": [
-        "Designed and implemented a curses-based menu system and executive, written in Python, running within the constraints of a diskless system",
-        "Maintained shell scripts and data files for deploying KVM and pre-packaged VM onto bare-metal systems",
-      ]
-    },
-    {
-      "company": "Red Hat, Global Support Services",
-      "position": "Partner Technical Account Manager",
-      "startDate": "June 2007",
-      "endDate": "April 2011",
-      "summary": "Technical liaison with OEM partners",
-      "highlights": [
-        "Worked with Red Hat Partners and Red Hat Engineering to resolve pre- and post- release technical issues",
-        "Assisted Red Hat Partners in timely certification of their hardware or software",
-        "Worked to resolve Red Hat/Red Hat Partner joint customer issues",
-      ]
-    },
-    {
-      "company": "IBM, for CTG",
-      "position": "Quality Assurance Engineer",
-      "startDate": "September 2003",
-      "endDate": "June 2007",
-      "summary": "Firmware tester. Executed test cases, reported defects, worked with developers to resolve defects",
-      "highlights": [
-        "Coded a library of bash scripts to test BladeCenter remote management",
-        "Completed initial JS20 and JS21 PowerPC BladeServer testing on schedule",
-        "Worked with team to complete test cycles on or ahead of schedule",
-        "Coded a library of shell scripts to automate testing tasks"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Processing.py",
-      "position": "Contributor (development)",
-      "website": "http://py.processing.org",
-      "startDate": "April 2014",
-      "endDate": "Present",
-      "summary": "Processing is a programming language, development environment, and online community.",
-      "highlights": [
-        "Two original demos accepted"
-        "Updated or cleaned up numerous tutorial demos."
-      ]
-    },
-    {
-      "organization": "BallDroppings",
-      "position": "Contributor (development)",
-      "website": " http://balldroppings.com",
-      "startDate": "April 2014",
-      "endDate": "April 2014",
-      "summary": "Generative music app.",
-    },
-    {
-      "organization": "ChucK plugin for Sublime Text 3",
-      "position": "Project co-creator, co-admin. Developer.",
-      "website": "https://github.com/tildebyte/ChucK-plugin-for-ST3",
-      "startDate": "October 2013",
-      "endDate": "December 2013",
-      "summary": "A Sublime Text 3 plugin for the ChucK coding language, featuring syntax highlighting, tab completion, and snippets.",
-    }
-  ],
-  "education": [
-    {
-      "institution": "The Linux Foundation",
-      "area": "Systems Administration",
-      "studyType": "Job-related, for Cisco Systems",
-      "startDate": "Spring 2016",
-      "courses": [
-        "LFS452 Essentials of OpenStack Administration, Cert #LFS452-6202"
-      ]
-    },
-    {
-      "institution": "Cloudera",
-      "area": "Big Data development",
-      "studyType": "Job-related, for Cisco Systems",
-      "startDate": "Spring 2016",
-      "courses": [
-        "Cloudera Developer Training for Apache Spark"
-      ]
-    },
-    {
-      "institution": "MITx",
-      "area": "Computer Science / Programming",
-      "studyType": "Independent Coursework",
-      "courses": [
-        "Introduction to Computer Science and Programming (6.00x), Certificate License fba863e685ed4a0b9b2d2d8830803b02"
-      ]
-    },
-    {
-      "institution": "Red Hat",
-      "area": "Systems Administration",
-      "studyType": "Job requirement",
-      "courses": [
-        "Red Hat Certified Engineer, RHCE #805007733428637"
-      ]
-    },
-    {
-      "institution": "Sun Educational Services",
-      "area": "Computer Science",
-      "studyType": "Job related, for Nortel Networks",
-      "courses": [
-        "Java Programming Language (SL-275)"
-      ]
-    },
-    {
-      "institution": "Coursera",
-      "area": "Computer Science & Arts",
-      "studyType": "Personal",
-      "courses": [
-      "Introduction to Programming for Musicians and Digital Artists"
-      ]
-    },
-    {
-      "institution": "The School of Communication Arts",
-      "area": "Digital Animation",
-      "studyType": "Associates",
-      "courses": [
-        "3D character animation. Modeling, rigging, lighting",
-        "Video editing/effects/post",
-        "Audio design/editing/effects/post"
-      ]
-    },
-    {
-      "institution": "North Carolina State University",
-      "area": "English, Design",
-      "studyType": "Bachelor",
-      "courses": [
-        "Writing, editing, copyediting, rhetoric; Graphic design"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Programming",
-      "keywords": [
-        "Python",
-        "ES6"
-      ]
-    },
-    {
-      "name": "Algorithmic/generative art & music",
-      "keywords": [
-        "Processing",
-        "three.js",
-        "Paper.js"
-      ]
-    }
-  ]
+    "work": [{
+        "company": "Lenovo, Fullfillment Engineering",
+        "position": "Preload Architect",
+        "startDate": "August 2016",
+        "endDate": "Present",
+        "summary": "Converting Python code from various legacy manufacturing test systems to a new platform/API which unifies manufacturing test across product lines",
+        "highlights": [
+            "Successfully rolled out an OS preload on new server product line for overseas manufacturing plant"
+        ]
+    }, {
+        "company": "Cisco Systems, Cisco Intercloud Services",
+        "position": "Cloud Engineer",
+        "startDate": "November 2015",
+        "endDate": "July 2016",
+        "summary": "Software Developer in Test. Member of a Scrum team responsible for metering and billing Openstack usage",
+        "highlights": [
+            "Completed team source repo re-org, including refactoring code into libraries and utilities",
+            "Replaced ad-hoc code with standardized libraries, both home-grown and third-party",
+            "Assisted with CI/CD environment design - Docker containers hosting StreamSets, Kafka, Cassandra, Spark, and MariaDB"
+        ]
+    }, {
+        "company": "IBM/Lenovo, Imaging Technology",
+        "position": "Design Engineer",
+        "startDate": "June 2011",
+        "endDate": "March 2015",
+        "summary": "Developer of system and appliance deployments for manufacturing process",
+        "highlights": [
+            "Designed and implemented a Python text menu system, running within the constraints of a diskless system",
+            "Maintained shell scripts and data files for deploying Linux virtual vachine host and hosted virtual machine",
+            "Designed and implemented shell scripts to:",
+            "- Download and package daily test builds",
+            "- Automate regression testing",
+            "- Monitor and test servers remotely",
+            "Maintained Linux PXE server used for booting systems under test into test automation environment"
+        ]
+    }, {
+        "company": "Red Hat, Global Support Services",
+        "position": "Partner Technical Account Manager",
+        "startDate": "June 2007",
+        "endDate": "April 2011",
+        "summary": "Technical liaison with OEM partners",
+        "highlights": [
+            "Worked with Red Hat Partners and Red Hat Engineering to resolve release-related technical issues",
+            "Assisted Red Hat Partners in timely certification of their hardware or software",
+            "Worked to resolve Red Hat/Red Hat Partner joint customer issues"
+        ]
+    }, {
+        "company": "IBM, Service Processor Test",
+        "position": "Quality Assurance Engineer",
+        "startDate": "September 2003",
+        "endDate": "June 2007",
+        "summary": "Firmware tester. Executed test cases, reported defects, worked with developers to resolve defects",
+        "highlights": [
+            "Coded a library of bash scripts to test BladeCenter remote management",
+            "Completed initial JS20 and JS21 PowerPC BladeServer testing on schedule",
+            "Coded a library of shell scripts to automate testing tasks"
+        ]
+    }],
+    "volunteer": [{
+        "organization": "Processing.py",
+        "position": "Contributor (development)",
+        "website": "http://py.processing.org",
+        "summary": "Processing is a programming language, development environment, and online community",
+        "highlights": [
+            "Two original demos accepted",
+            "Updated or cleaned up numerous tutorial demos"
+        ]
+    }, {
+        "organization": "BallDroppings",
+        "position": "Contributor (development)",
+        "website": " http://balldroppings.com",
+        "summary": "Generative music app"
+    }, {
+        "organization": "ChucK plugin for Sublime Text code editor",
+        "position": "Project co-creator, co-admin. Developer",
+        "website": "https://github.com/tildebyte/ChucK-plugin-for-ST3",
+        "summary": "Syntax highlighting, tab completion, and snippets for ChucK programming language - http://chuck.cs.princeton.edu"
+    }],
+    "education": [{
+        "institution": "The Linux Foundation",
+        "area": "Systems Administration",
+        "studyType": "Job-related, for Cisco Systems",
+        "startDate": "Spring 2016",
+        "courses": [
+            "LFS452 Essentials of OpenStack Administration, Cert #LFS452-6202"
+        ]
+    }, {
+        "institution": "Cloudera",
+        "area": "Big Data development",
+        "studyType": "Job-related, for Cisco Systems",
+        "startDate": "Spring 2016",
+        "courses": [
+            "Cloudera Developer Training for Apache Spark"
+        ]
+    }, {
+        "institution": "MITx",
+        "area": "Computer Science / Programming",
+        "studyType": "Independent Coursework",
+        "courses": [
+            "Introduction to Computer Science and Programming (6.00x)"
+        ]
+    }, {
+        "institution": "Sun Educational Services",
+        "area": "Computer Science",
+        "studyType": "Job related, for Nortel Networks",
+        "courses": [
+            "Java Programming Language (SL-275)"
+        ]
+    }, {
+        "institution": "North Carolina State University",
+        "area": "Publication Design",
+        "studyType": "Bachelor",
+        "courses": [
+            "Writing, editing, rhetoric, graphic design"
+        ]
+    }],
+    "skills": [{
+        "name": "Software Development",
+        "level": "Intermediate",
+        "keywords": [
+            "Python",
+            "ES6/Javascript",
+            "HTML/CSS"
+        ]
+    }, {
+        "name": "Test Engineering",
+        "level": "Expert",
+        "keywords": [
+            "APIs",
+            "Frameworks",
+            "Automation"
+        ]
+    }, {
+        "name": "Team Dynamics",
+        "level": "Intermediate",
+        "keywords": [
+            "Agile",
+            "Scrum",
+            "DevOps"
+        ]
+    }, {
+        "name": "Technology",
+        "level": "Expert",
+        "keywords": [
+            "Systems Administration",
+            "Virtualization"
+        ]
+    }],
+    "interests": [{
+        "name": "Programming",
+        "keywords": [
+            "Python",
+            "ES6"
+        ]
+    }, {
+        "name": "Algorithmic/generative art & music",
+        "keywords": [
+            "Processing",
+            "three.js",
+            "Paper.js"
+        ]
+    }]
+}

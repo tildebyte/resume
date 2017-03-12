@@ -1,0 +1,637 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Benjamin Alkov</title>
+
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="octicons.min.css">
+
+	<style type="text/css">
+@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: ##9babed;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+h3 {
+    float: left;
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .3;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-3 {
+	margin-right: 5px;
+}
+.col-sm-6 {
+	float: right;
+}
+.col-sm-9 {
+	margin-bottom: 10px;
+	float: left;
+}
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #2f84de;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+/*#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}*/
+#education .studyType {
+	margin-left: 25px;
+}
+
+#education h4 {
+    font-size: 13px;
+}
+#skills {
+    margin-bottom: 30px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+.date {
+    float: right;
+}
+div .row {
+    min-width: 600px;
+}
+/*@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}*/
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+        float: right;
+		margin-bottom: 10px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+/*@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}*/
+
+	</style>
+
+	</head>
+	<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Benjamin Alkov
+					</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="email">ben.alkov@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="phone">(919) 906-7845</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/benalkov">benalkov</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/tildebyte">tildebyte</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						CodePen
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://codepen.io/tildebyte/#">tildebyte</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Lenovo, Fullfillment Engineering</span>
+					<span class="date">
+						August 2016 — Present
+					</span>
+				</h4>
+				<div class="position">
+					Preload Development Engineer
+				</div>
+				<div class="summary">
+					<p>Converting Python code from various legacy manufacturing test systems to a new platform/API which unifies manufacturing test across product lines</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Successfully rolled out an OS preload on new server product line for overseas manufacturing plant</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Cisco Systems, Cisco Intercloud Services</span>
+					<span class="date">
+						November 2015 — July 2016
+					</span>
+				</h4>
+				<div class="position">
+					Software Developer in Test
+				</div>
+				<div class="summary">
+					<p>Software Developer in Test. Member of a Scrum team responsible for metering and billing Openstack usage</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Completed team source repo re-org, including refactoring code into libraries and utilities</li>
+					<li class="bullet">Replaced ad-hoc code with standardized libraries, both home-grown and third-party</li>
+					<li class="bullet">Assisted with CI/CD environment design - Docker containers hosting StreamSets, Kafka, Cassandra, Spark, and MariaDB</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>IBM/Lenovo, Imaging Technology</span>
+					<span class="date">
+						June 2011 — March 2015
+					</span>
+				</h4>
+				<div class="position">
+					Software Developer in Test
+				</div>
+				<div class="summary">
+					<p>Developer of system and appliance deployments for manufacturing process</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Designed and implemented a Python text menu system, running within the constraints of a diskless system</li>
+					<li class="bullet">Maintained shell scripts and data files for deploying Linux virtual machine host and hosted virtual machine</li>
+					<li class="bullet">Designed and implemented shell scripts to:</li>
+					<li class="bullet">- Download and package daily test builds</li>
+					<li class="bullet">- Automate regression testing</li>
+					<li class="bullet">- Monitor and test servers remotely</li>
+					<li class="bullet">Maintained Linux PXE server used for booting systems under test into test automation environment</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Red Hat, Global Support Services</span>
+					<span class="date">
+						June 2007 — April 2011
+					</span>
+				</h4>
+				<div class="position">
+					Partner Technical Liaison
+				</div>
+				<div class="summary">
+					<p>Technical liaison with OEM partners</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Worked with Red Hat Partners and Red Hat Engineering to resolve release-related technical issues</li>
+					<li class="bullet">Assisted Red Hat Partners in timely certification of their hardware or software</li>
+					<li class="bullet">Worked to resolve Red Hat/Red Hat Partner joint customer issues</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>IBM, Service Processor Test</span>
+					<span class="date">
+						September 2003 — June 2007
+					</span>
+				</h4>
+				<div class="position">
+					Quality Assurance Engineer
+				</div>
+				<div class="summary">
+					<p>Firmware tester. Executed test cases, reported defects, worked with developers to resolve defects</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Coded a library of bash scripts to test BladeCenter remote management</li>
+					<li class="bullet">Completed initial JS20 and JS21 PowerPC BladeServer testing on schedule</li>
+					<li class="bullet">Coded a library of shell scripts to automate testing tasks</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Processing.py</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://py.processing.org">http://py.processing.org</a>
+				</div>
+				<div class="position">
+					Contributor (development)
+				</div>
+				<div class="summary">
+					<p>Processing is a programming language, development environment, and online community</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Two original demos accepted</li>
+					<li class="bullet">Updated or cleaned up numerous tutorial demos</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>BallDroppings</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=" http://balldroppings.com"> http://balldroppings.com</a>
+				</div>
+				<div class="position">
+					Contributor (development)
+				</div>
+				<div class="summary">
+					<p>Generative music app</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>ChucK plugin for Sublime Text code editor</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://github.com/tildebyte/ChucK-plugin-for-ST3">https://github.com/tildebyte/ChucK-plugin-for-ST3</a>
+				</div>
+				<div class="position">
+					Project co-creator, co-admin. Developer
+				</div>
+				<div class="summary">
+					<p>Syntax highlighting, tab completion, and snippets for ChucK programming language - http://chuck.cs.princeton.edu</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>The Linux Foundation</span>
+					<span class="date">
+						Spring 2016
+					</span>
+				</h4>
+				<div class="area">
+					Systems Administration
+				</div>
+				<div class="studyType">
+					Job-related, for Cisco Systems
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>LFS452 Essentials of OpenStack Administration, Cert #LFS452-6202</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Cloudera</span>
+					<span class="date">
+						Spring 2016
+					</span>
+				</h4>
+				<div class="area">
+					Big Data development
+				</div>
+				<div class="studyType">
+					Job-related, for Cisco Systems
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Cloudera Developer Training for Apache Spark</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>MITx</span>
+					<span class="date">
+
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science / Programming
+				</div>
+				<div class="studyType">
+					Independent Coursework
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Introduction to Computer Science and Programming (6.00x)</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Sun Educational Services</span>
+					<span class="date">
+
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Job related, for Nortel Networks
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Java Programming Language (SL-275)</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>North Carolina State University</span>
+					<span class="date">
+
+					</span>
+				</h4>
+				<div class="area">
+					Publication Design
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Writing, editing, rhetoric, graphic design</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Software Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>Python</li>
+					<li>ES6/Javascript</li>
+					<li>HTML/CSS</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Test Engineering</h4>
+				</div>
+				<ul class="keywords">
+					<li>APIs</li>
+					<li>Frameworks</li>
+					<li>Automation</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Team Dynamics</h4>
+				</div>
+				<ul class="keywords">
+					<li>Agile</li>
+					<li>Scrum</li>
+					<li>DevOps</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Technology</h4>
+				</div>
+				<ul class="keywords">
+					<li>Systems Administration</li>
+					<li>Virtualization</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Programming</h4>
+				</div>
+				<ul class="keywords">
+					<li>Python</li>
+					<li>ES6</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Algorithmic/generative art &amp; music</h4>
+				</div>
+				<ul class="keywords">
+					<li>Processing</li>
+					<li>three.js</li>
+					<li>Paper.js</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+
+	</body>
+</html>

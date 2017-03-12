@@ -24,7 +24,7 @@
     },
     "work": [{
         "company": "Lenovo, Fullfillment Engineering",
-        "position": "Preload Architect",
+        "position": "Preload Development Engineer",
         "startDate": "August 2016",
         "endDate": "Present",
         "summary": "Converting Python code from various legacy manufacturing test systems to a new platform/API which unifies manufacturing test across product lines",
@@ -33,7 +33,7 @@
         ]
     }, {
         "company": "Cisco Systems, Cisco Intercloud Services",
-        "position": "Cloud Engineer",
+        "position": "Software Developer in Test",
         "startDate": "November 2015",
         "endDate": "July 2016",
         "summary": "Software Developer in Test. Member of a Scrum team responsible for metering and billing Openstack usage",
@@ -44,13 +44,13 @@
         ]
     }, {
         "company": "IBM/Lenovo, Imaging Technology",
-        "position": "Design Engineer",
+        "position": "Software Developer in Test",
         "startDate": "June 2011",
         "endDate": "March 2015",
         "summary": "Developer of system and appliance deployments for manufacturing process",
         "highlights": [
             "Designed and implemented a Python text menu system, running within the constraints of a diskless system",
-            "Maintained shell scripts and data files for deploying Linux virtual vachine host and hosted virtual machine",
+            "Maintained shell scripts and data files for deploying Linux virtual machine host and hosted virtual machine",
             "Designed and implemented shell scripts to:",
             "- Download and package daily test builds",
             "- Automate regression testing",
@@ -59,7 +59,7 @@
         ]
     }, {
         "company": "Red Hat, Global Support Services",
-        "position": "Partner Technical Account Manager",
+        "position": "Partner Technical Liaison",
         "startDate": "June 2007",
         "endDate": "April 2011",
         "summary": "Technical liaison with OEM partners",
